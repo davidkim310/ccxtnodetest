@@ -1,0 +1,33 @@
+{
+    "name": "ccxtnodetest",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "ng": "ng",
+      "start": "node server/server.js",
+      "dev": "nodemon server/server.js",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "dependencies": {
+      "body-parser": "~1.18.2",
+      "concurrently": "^3.5.0",
+      "cookie-parser": "~1.4.3",
+      "core-js": "^2.4.1",
+      "debug": "~2.6.9",
+      "express": "~4.15.5",
+      "morgan": "~1.9.0",
+      "randomstring": "^1.1.5",
+      "request": "^2.83.0",
+      "request-promise": "^4.2.2",
+      "rxjs": "^5.4.2",
+      "zone.js": "^0.8.14"
+    },
+    "devDependencies": {
+      "nodemon": "^1.12.1"
+    }
+  }
+  
